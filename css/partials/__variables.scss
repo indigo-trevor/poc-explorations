@@ -1,0 +1,19 @@
+// Responsive min-width's
+$breakpoint-xs: 550px;
+$breakpoint-s: 768px;
+$breakpoint-m: 992px;
+$breakpoint-l: 1200px;
+
+// Responsive breakpoints
+$XS: 'min-width:'+ $breakpoint-xs;
+$S: 'min-width:'+ $breakpoint-s;
+$M: 'min-width:'+ $breakpoint-m;
+$L: 'min-width:'+ $breakpoint-l;
+
+// Font family(s)
+$coreFontFamily: 'Archivo', sans-serif;
+
+// Color's
+$brandBlue: #125ef7;
+$lightCopy: #ffffff;
+$darkCopy: #333333;

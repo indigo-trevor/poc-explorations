@@ -1,0 +1,37 @@
+{
+  "name": "poc-explorations",
+  "version": "1.0.0",
+  "description": "Proof of concept explorations. Just for fun.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "graceful-fs": "^4.2.4",
+    "node-sass": "^6.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigo-trevor/poc-explorations"
+  },
+  "author": "Trevor Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IndigoSlate/poc-explorations/issues"
+  },
+  "homepage": "https://github.com/IndigoSlate/poc-explorations#readme"
+}

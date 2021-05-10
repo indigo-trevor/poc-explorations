@@ -1,0 +1,23 @@
+a {
+  color: darken($brandBlue, 10%);
+  transition: all 250ms ease;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($brandBlue, 20%);
+  }
+
+}
+
+button {
+  background-color: darken($brandBlue, 10%);
+  color: $lightCopy;
+  border: none;
+  padding: 8px 35px;
+  transition: all 250ms ease;
+  margin-top: 1.5em;
+
+  &:hover {
+    background-color: darken($brandBlue, 20%);
+  }
+}
